@@ -1,0 +1,53 @@
+{
+  "core_tests": {
+    "passed": 21,
+    "failed": 0,
+    "skipped": 0
+  },
+  "gui_smoke": [
+    "import 17 packets",
+    "HTTP filter 3 packets",
+    "invalid filter preserves results",
+    "packet hex/details",
+    "TCP stream window",
+    "DNS export 3 packets",
+    "replace cancellation"
+  ],
+  "live_capture": {
+    "passed": true,
+    "interface": "lo0",
+    "filter": "tcp port 8765 and host 127.0.0.1",
+    "packets": 12,
+    "http_packets": 2,
+    "error": "",
+    "stats": {
+      "received": 216,
+      "dropped": 0,
+      "interface_dropped": 0
+    },
+    "queue_dropped": 0,
+    "platform": "macOS-26.2-arm64-arm-64bit"
+  },
+  "video": {
+    "duration_seconds": 105,
+    "width": 1920,
+    "height": 1080,
+    "decoded_seconds": [
+      0,
+      50,
+      87,
+      104
+    ],
+    "format": "H.264 MP4",
+    "presentation": "actual screenshots with captions; no audio"
+  },
+  "report": {
+    "pages": 8,
+    "rendered_and_inspected": true
+  },
+  "github": {
+    "url": "https://github.com/mahoushaoping/packetlens-lab1a",
+    "visibility": "private",
+    "functional_commit": "a1ae7a2a553b214e7bce6a27afeae8592e1af6f1"
+  }
+}

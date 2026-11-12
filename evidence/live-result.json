@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "interface": "lo0",
+  "filter": "tcp port 8765 and host 127.0.0.1",
+  "packets": 12,
+  "http_packets": 2,
+  "error": "",
+  "stats": {
+    "received": 216,
+    "dropped": 0,
+    "interface_dropped": 0
+  },
+  "queue_dropped": 0,
+  "platform": "macOS-26.2-arm64-arm-64bit"
+}
