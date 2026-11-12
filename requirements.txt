@@ -1,0 +1,3 @@
+# 应用程序使用 Python 3.10+ 标准库（tkinter、ctypes 等），无需 pip 包。
+# macOS: python.org 安装包包含 Tk；系统提供 libpcap。
+# Linux: 需系统 python3-tk、libpcap；Windows: 需 Python Tcl/Tk 与 Npcap。
