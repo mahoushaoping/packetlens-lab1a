@@ -1,4 +1,4 @@
-// macOS: swift tools/encode_video.swift manifest.json output.mp4
+// macOS: swift tools/media/encode_video.swift manifest.json output.mp4
 // Encode actual screenshot-based demonstration frames with AVFoundation.
 import Foundation
 import AVFoundation

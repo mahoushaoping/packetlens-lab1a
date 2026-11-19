@@ -21,6 +21,6 @@ test_syn_initial_gap (test_core.StreamTests.test_syn_initial_gap) ... ok
 test_wrap_gap_and_overlap (test_core.StreamTests.test_wrap_gap_and_overlap) ... ok
 
 ----------------------------------------------------------------------
-Ran 21 tests in 0.014s
+Ran 21 tests in 0.015s
 
 OK
