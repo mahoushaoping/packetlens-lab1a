@@ -4,6 +4,8 @@ PacketLens 是《软件与系统安全》实验 1A 的桌面网络嗅探器。�
 
 [实验报告](docs/report.pdf) · [演示视频](docs/demo.mp4) · [验证记录](evidence/validation.json)
 
+当前演示录于 2026 年 11 月 24 日，包含本机回环抓包及 PacketLens 界面实操。录像里的 4 秒抓包共捕获 14 个包，包含一个 HTTP 请求和一个响应，丢包计数为 0。
+
 ## 运行
 
 macOS 需要带 Tk 的 Python 3.10 或更高版本，抓包使用系统 libpcap。项目的应用代码使用标准库。
@@ -38,9 +40,9 @@ python3 tools/gui_smoke.py
 
 实验覆盖 macOS。应用层解析范围包括 HTTP/1.x、DNS 与 TLS 记录头。TCP 流按端点归组，进程归属和连接代次划分超出实现范围。
 
-## 生成报告和视频
+## 生成报告和旧版演示
 
-材料生成脚本在 macOS 上运行，使用系统 Arial Unicode 字体。生成目录 `test-output/` 由 Git 忽略。
+材料生成脚本在 macOS 上运行，使用系统 Arial Unicode 字体。生成目录 `test-output/` 由 Git 忽略。视频生成命令用于复现旧版截图演示。当前实操录屏可从文首链接查看。
 
 ```sh
 python3 -m pip install -r requirements-dev.txt
